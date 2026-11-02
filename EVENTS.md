@@ -2,7 +2,7 @@
 
 A chronological directory of Davos events during **January 18–22, 2027**.
 
-**Time zone:** All times are in Davos local time (CET, UTC+1). Events appear in chronological order within each day. Unknown details are marked **Not announced**.
+**Time zone:** Davos local time (CET, UTC+1). Events are ordered by start time within each day. Unknown information is marked **Not announced**.
 
 ## Monday, January 18, 2027
 
@@ -10,12 +10,26 @@ A chronological directory of Davos events during **January 18–22, 2027**.
 
 ## Tuesday, January 19, 2027
 
-### Daily schedule
+### 10:00–11:30 AM — HoC Davos Energy & Infrastructure Jan 19
 
-| Time (CET) | Event | Host | Venue | Description | Topics | Speakers | Approval type | Registration status | Cost | Registration deadline | Organizer contact | Venue access / check-in | Dress code | Source |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 10:00–11:30 AM | **HoC Davos Energy & Infrastructure Jan 19** | J3D.AI / House of Collaboration Davos | Talstrasse 52, 7270 Davos, Switzerland | House of Collaboration Davos event focused on energy and infrastructure. Additional program details not announced. | Energy; Infrastructure | Not announced | Host approval required | Not verified | Not announced | Not announced | Not announced | Not announced | Not announced | [Luma](https://luma.com/x8bnvaw5?tk=3efhcv) |
-
+| Field | Details |
+| :--- | :--- |
+| **Event** | HoC Davos Energy & Infrastructure Jan 19 |
+| **Date** | Tuesday, January 19, 2027 |
+| **Time (CET)** | 10:00–11:30 AM |
+| **Host / organizer** | J3D.AI / House of Collaboration Davos |
+| **Location** | Talstrasse 52, 7270 Davos, Switzerland |
+| **Description** | House of Collaboration Davos event focused on energy and infrastructure. Additional program details not announced. |
+| **Topics** | Energy; Infrastructure |
+| **Speakers** | Not announced |
+| **Approval type** | Host approval required |
+| **Registration status** | Not verified |
+| **Cost** | Not announced |
+| **Registration deadline** | Not announced |
+| **Organizer contact** | Not announced |
+| **Venue access / check-in** | Not announced |
+| **Dress code** | Not announced |
+| **Source / registration** | [Open Luma event page](https://luma.com/x8bnvaw5?tk=3efhcv) |
 
 ## Wednesday, January 20, 2027
 
