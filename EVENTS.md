@@ -36,9 +36,7 @@ A chronological directory of Davos events during **January 18–22, 2027**.
 | **Organizer contact** | Not announced |
 | **Venue access / check-in** | Not announced |
 | **Dress code** | Not announced |
-| **Event format** | Not announced |
 | **Source / registration** | [Open original Luma event page](https://luma.com/x8bnvaw5?tk=3efhcv) |
-| **Last verified** | Not recorded |
 
 ## Wednesday, January 20, 2027
 
