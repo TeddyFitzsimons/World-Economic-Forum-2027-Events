@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Davos Events 2027</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#24292f;background:#fff}
+*{box-sizing:border-box}body{margin:0}main{max-width:1600px;margin:auto;padding:40px 32px 80px}
+h1{font-size:32px;margin:0 0 8px}h2{font-size:27px;margin:44px 0 18px;border-bottom:1px solid #d0d7de;padding-bottom:12px}p{color:#57606a;line-height:1.5}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:28px 0}
+input{padding:11px 14px;border:1px solid #d0d7de;border-radius:6px;font:inherit;min-width:300px;flex:1;max-width:560px}
+button{padding:10px 15px;border:1px solid #d0d7de;background:#fff;border-radius:6px;cursor:pointer;font:inherit}
+button.active{background:#24292f;color:white}
+.scroll{width:100%;overflow-x:auto;border:1px solid #d0d7de;border-radius:6px}
+table{border-collapse:collapse;table-layout:fixed;width:max-content;min-width:100%}
+th,td{border-right:1px solid #d0d7de;border-bottom:1px solid #d0d7de;padding:14px 16px;text-align:left;vertical-align:top;line-height:1.5;overflow-wrap:break-word}
+th:last-child,td:last-child{border-right:0}tbody tr:last-child td{border-bottom:0}
+th{background:#f6f8fa;font-weight:600}tbody tr:nth-child(even){background:#f6f8fa}
+th:nth-child(1),td:nth-child(1){width:155px;min-width:155px}
+th:nth-child(2),td:nth-child(2){width:290px;min-width:290px}
+th:nth-child(3),td:nth-child(3){width:260px;min-width:260px}
+th:nth-child(4),td:nth-child(4){width:260px;min-width:260px}
+th:nth-child(5),td:nth-child(5){width:400px;min-width:400px}
+th:nth-child(6),td:nth-child(6){width:200px;min-width:200px}
+th:nth-child(7),td:nth-child(7){width:220px;min-width:220px}
+th:nth-child(8),td:nth-child(8){width:210px;min-width:210px}
+th:nth-child(9),td:nth-child(9){width:200px;min-width:200px}
+th:nth-child(10),td:nth-child(10){width:155px;min-width:155px}
+th:nth-child(11),td:nth-child(11){width:210px;min-width:210px}
+th:nth-child(12),td:nth-child(12){width:220px;min-width:220px}
+th:nth-child(13),td:nth-child(13){width:230px;min-width:230px}
+th:nth-child(14),td:nth-child(14){width:180px;min-width:180px}
+th:nth-child(15),td:nth-child(15){width:150px;min-width:150px}
+a{color:#0969da} .empty{font-style:italic} .hidden{display:none}
+@media(max-width:600px){main{padding:24px 16px}h1{font-size:26px}h2{font-size:22px}input{min-width:100%}}
+</style>
+</head>
+<body><main>
+<h1>World Economic Forum 2027 — Davos Events</h1>
+<p>January 18–22, 2027 · All times in Davos local time (CET, UTC+1). Events are grouped by day and ordered chronologically. Scroll tables horizontally to view all columns.</p>
+<div class="controls"><input id="search" type="search" placeholder="Search events, hosts, speakers, topics…" aria-label="Search events"><button id="clear" type="button">Clear search</button></div>
+<section><h2>Monday, January 18, 2027</h2><p class="empty">No events added yet.</p></section>
+<section><h2>Tuesday, January 19, 2027</h2>
+<div class="scroll"><table>
+<thead><tr><th>Time (CET)</th><th>Event</th><th>Host</th><th>Venue</th><th>Description</th><th>Topics</th><th>Speakers</th><th>Approval type</th><th>Registration status</th><th>Cost</th><th>Registration deadline</th><th>Organizer contact</th><th>Venue access / check-in</th><th>Dress code</th><th>Source</th></tr></thead>
+<tbody><tr class="event"><td>10:00–11:30 AM</td><td><strong>HoC Davos Energy &amp; Infrastructure Jan 19</strong></td><td>J3D.AI / House of Collaboration Davos</td><td>Talstrasse 52, 7270 Davos, Switzerland</td><td>House of Collaboration Davos event focused on energy and infrastructure. Additional program details not announced.</td><td>Energy; Infrastructure</td><td>Not announced</td><td>Host approval required</td><td>Not verified</td><td>Not announced</td><td>Not announced</td><td>Not announced</td><td>Not announced</td><td>Not announced</td><td><a href="https://luma.com/x8bnvaw5?tk=3efhcv" target="_blank" rel="noopener noreferrer">Luma event page</a></td></tr></tbody>
+</table></div><p class="empty hidden" id="no-match">No matching events.</p></section>
+<section><h2>Wednesday, January 20, 2027</h2><p class="empty">No events added yet.</p></section>
+<section><h2>Thursday, January 21, 2027</h2><p class="empty">No events added yet.</p></section>
+<section><h2>Friday, January 22, 2027</h2><p class="empty">No events added yet.</p></section>
+</main>
+<script>
+const search=document.getElementById('search'),rows=[...document.querySelectorAll('tr.event')],none=document.getElementById('no-match');
+function filter(){const q=search.value.trim().toLowerCase();let visible=0;for(const row of rows){const show=row.textContent.toLowerCase().includes(q);row.classList.toggle('hidden',!show);if(show)visible++}none.classList.toggle('hidden',visible!==0)}
+search.addEventListener('input',filter);
+document.getElementById('clear').addEventListener('click',()=>{search.value='';filter();search.focus()});
+</script></body></html>
